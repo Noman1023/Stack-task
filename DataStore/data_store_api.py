@@ -26,7 +26,7 @@ def insert_bulk_records():
 
 
 @app.route('/store/get', methods=['GET'])
-def get_records():
+def get_record():
     id_ = int(request.args.to_dict().get('id'))
     data = get_data_from_request(request.data)
     handler = get_data_handler(data)
