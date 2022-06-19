@@ -1,0 +1,11 @@
+{
+    "store_data": [
+        {
+            "name": "John Doe",
+            "age": 29,
+            "id": 1
+        }
+
+    ],
+    "current_id": 2
+}
